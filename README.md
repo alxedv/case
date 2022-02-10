@@ -1,9 +1,20 @@
 # Como executar o código
 Basta fazer o clone do repositório com o comando
 
-Ir para o diretório do repositório
+```
+git clone git@github.com:alxedv/case.git
+```
 
-Colocar o comando npm install
+Ir para o diretório do repositório clonado
 
-Iniciar a aplicação com npm start
+Digitar o comando
 
+```
+npm install
+```
+
+Iniciar a aplicação com
+
+```
+npm start
+```
