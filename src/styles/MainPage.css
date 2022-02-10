@@ -1,0 +1,84 @@
+.filter-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 120px;
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+  transition: 0.3s;
+  margin: 10px;
+}
+
+.filter:hover {
+  cursor: pointer;
+  background-color: rgb(255, 123, 0);
+  box-shadow: 0 0 01rem rgba(0, 0, 0, 0.2);
+  color: white;
+  transition: 0.3s;
+}
+
+
+.icon {
+  filter: grayscale(100%);
+  margin: 5px;
+}
+
+.filter:hover .icon {
+  filter: brightness(0) invert(1);
+}
+
+.filter:focus {
+  background-color: rgb(255, 123, 0);
+  box-shadow: 0 0 01rem rgba(0, 0, 0, 0.2);
+  color: white;
+  transition: 0.3s;
+}
+
+.filter:focus .icon {
+  filter: brightness(0) invert(1);
+}
+
+.input-select {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 300px;
+}
+.input-select select {
+  width: 180px;
+  height: 30px;
+  border: 1px solid rgb(224, 218, 218);
+  border-radius: 3px;
+  padding: 5px;
+  background-color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.cards div {
+  margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .filter-buttons {
+    padding-left: 90%;
+    overflow-x: scroll;
+  }
+}

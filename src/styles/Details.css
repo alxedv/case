@@ -1,0 +1,58 @@
+.card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height:600px;
+  justify-content: space-evenly;
+}
+
+.details-name {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  text-align: start;
+  color: rgb(255,160,7);
+}
+
+.image-description {
+  color: rgb(255,160,7);
+  width: 400px;
+}
+
+.details-text {
+  color: grey;
+  width: 60%;
+  height: 30%;
+}
+
+.details-price {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 60%;
+}
+
+.details-price button {
+  cursor: pointer;
+  background: rgb(246,127,71);
+  background: linear-gradient(90deg, rgba(246,127,71,1) 0%, rgba(241,162,58,1) 0%, rgba(248,149,46,1) 49%, rgba(244,97,13,1) 100%);
+  padding: 5px;
+  text-align: center;
+  color: white;
+  border-style: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  height: 30px;
+  width: 80px;
+}
+
+@media screen and (max-width: 480px) {
+  .card-details {
+    height: 100vh;
+  }
+
+  .details-price {
+    margin-top: 50px;
+  }
+}

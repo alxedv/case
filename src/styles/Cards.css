@@ -1,0 +1,45 @@
+.card {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; 
+  width: 250px;
+  height: 250px;
+}
+
+.card-text {
+  width: 250px;
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+}
+
+.know-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(246,127,71);
+  background: linear-gradient(90deg, rgba(246,127,71,1) 0%, rgba(241,162,58,1) 0%, rgba(248,149,46,1) 49%, rgba(244,97,13,1) 100%);
+  color: white;
+  font-weight: bolder;
+  height: 40px;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.know-more span {
+  margin-left: 5px;
+}
+
+.know-more .details-button {
+  margin-right: 5px;
+  border-style: none;
+  background: none;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+

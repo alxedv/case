@@ -1,0 +1,55 @@
+header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom:3px solid orange;
+}
+
+.banner1 {
+  background-image: url('../assets/banner1.png');
+  background-size: cover;
+}
+
+.upminer {
+  display: flex;
+  align-items: center;
+}
+
+.upminer-logo {
+  margin-left: 30px;
+}
+
+.vertical-line {
+  border-right: 1px solid white;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.text {
+  width: 600px;
+  margin-left: 30px;
+}
+
+.details {
+  margin-left: 30px;
+}
+
+header button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .text {
+    width: 400px;
+    text-align: justify;
+  }
+}
+
